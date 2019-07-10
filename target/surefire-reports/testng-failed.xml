@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="script.TestCheckIssueDate">
+        <methods>
+          <include name="setprop"/>
+          <include name="testCheckIssueDate"/>
+          <include name="genReport"/>
+          <include name="openActitTimeApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.TestCheckIssueDate -->
+      <class name="script.TestDemoA">
+        <methods>
+          <include name="setprop"/>
+          <include name="m3"/>
+          <include name="m2"/>
+          <include name="genReport"/>
+          <include name="openActitTimeApp"/>
+          <include name="m1"/>
+          <include name="test"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.TestDemoA -->
+      <class name="script.TestInvalidLoginPage">
+        <methods>
+          <include name="setprop"/>
+          <include name="genReport"/>
+          <include name="openActitTimeApp"/>
+          <include name="testInvalidLoginPage"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.TestInvalidLoginPage -->
+      <class name="script.TestValidLoginPage">
+        <methods>
+          <include name="setprop"/>
+          <include name="genReport"/>
+          <include name="openActitTimeApp"/>
+          <include name="testValidLogin"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.TestValidLoginPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
